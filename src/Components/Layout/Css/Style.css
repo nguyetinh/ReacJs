@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1vw;
+    margin: 0;
+}
+
+.boxcenter {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.pd20{
+    padding: 20px;
+}
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.ml10 {
+    margin-left: 1%;
+}
+
+h1 {
+    margin: 20px 0px;
+    font-size: 2vw;
+    color: rgba(66, 101, 27, 0.904);
+}
+
+.menu {
+    background-color: #4CAF50;
+    color: #FFF;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.boxsp {
+    float: left;
+    width: calc((100% - 80px)/4); 
+    min-height: 300px;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 5px;
+}
+
+.boxsp input {
+    width: 40px;
+    position: absolute;
+    right: 5px;
+    bottom: 45px;
+    border-radius: 5px;
+    border: 1px #FC0 solid;
+    padding-left: 5px;
+    height: 20px;
+}
+
+.boxsp button {
+    width: 80px;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    background-color:  #4CAF50;
+    border-radius: 5px;
+    border: 1px #FC0 solid;
+    padding: 5px 0px;
+    color: #EEE;
+    cursor: pointer;
+}
+.boxsp button:hover {
+    background-color: #45a049;
+  }
+
+.boxsp .img {
+    min-height: 250px;
+    text-align: center;
+}
+
+.boxsp .img:hover {
+    transform:scale(1.1);
+    transition: 0.5s;
+    /* min-height: 230px; */
+    /* text-align: center; */
+}
+
+.img img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu ul {
+    padding: 0px 10px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    /* color: #41985b; */
+    font-size: 1.2vw;
+}
+
+.titlePage{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.product-detail {
+    display: inline-flex;
+    align-items: center;
+}
+
+.product-image {
+    flex: 1;
+    width: 50%;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.product-info p span{
+    color: red;
+}
+
+.product-info h2 {
+    color: #4CAF50;
+}
+
+.product-info p {
+    color: #666;
+}
+
+.order-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.related-products {
+    margin-top: 40px;
+}
+
+.related-products h3 {
+    color: #4CAF50;
+}
+
+.related-products .product {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.related-products .product img {
+    width: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.related-products .product-info {
+    flex: 1;
+}
+
+/* giohang */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4CAF50;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  th, td {
+    padding: 15px 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  td img {
+    max-width: 100px;
+  }
+  
+  #total {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4CAF50;
+  }
+  
+  .dongy {
+    display: block;
+    width: 10%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .dongy:hover {
+    background-color: #45a049;
+  }

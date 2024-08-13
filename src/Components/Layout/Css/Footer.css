@@ -1,0 +1,36 @@
+.grid{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+.grid_row li a:hover{
+    color: #f61818;
+}
+.grid_clumn{
+    width: 18%;
+    margin-top: 35px;
+    margin-bottom: 25px;    
+}
+.grid_clumn li a{
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 13px;
+    font-family:'Roboto',sans-serif;
+}
+.footer-list{
+    list-style-type: none;
+}
+.footer__headind{
+    font-size: 14px;
+    color: #4CAF50;
+    padding-left: 40px;
+    font-weight: bold;
+    font-family: Arial; 
+}
